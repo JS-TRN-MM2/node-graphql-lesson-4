@@ -1,4 +1,4 @@
-const { prisma } = require('../database.js');
+const { prisma } = require('../prisma/client');
 
 const Query = {
   enrollment: (parent, args) => {
